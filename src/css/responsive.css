@@ -1,0 +1,365 @@
+@media only screen and (max-width: 1366px) {
+  .hero .contents h1 {
+    font-size: 8.2rem;
+  }
+
+  h2 {
+    font-size: 3.6rem;
+  }
+
+  h3 {
+    font-size: 2.8rem;
+  }
+
+  .sponsors {
+    padding-top: 7rem;
+    padding-bottom: 10rem;
+  }
+
+  .services,
+  .clients {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+
+  .works .flex-container {
+    margin: 0 -1.2rem;
+  }
+
+  .works .panel-left,
+  .works .projects article {
+    padding: 1.2rem;
+  }
+
+  .clients .group {
+    margin-bottom: 5rem;
+  }
+
+  .newsletter {
+    padding-top: 7rem;
+  }
+
+  footer .wrapper {
+    padding: 7rem 0;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .nav {
+    height: 8rem;
+    padding-inline: 5rem;
+  }
+
+  .app {
+    padding-top: 8rem;
+  }
+
+  h2 {
+    font-size: 3.2rem;
+  }
+
+  h3 {
+    font-size: 2.4rem;
+  }
+
+  .container {
+    padding-inline: 5rem;
+  }
+
+  .hero {
+    min-height: calc(100vh - 8rem);
+    padding-bottom: 8rem;
+  }
+
+  .sponsors .sponsors-row.row {
+    margin-left: 5rem;
+  }
+
+  .sponsors .sponsors-row.row_reverse {
+    margin-right: 5rem;
+  }
+
+  .hero .contents h1 {
+    font-size: 7.2rem;
+  }
+
+  .card {
+    padding: 2rem;
+  }
+
+  .card .tag {
+    margin-bottom: 2rem;
+  }
+
+  .sponsors .marquee {
+    margin-top: 5rem;
+  }
+
+  .sponsors .sponsors-row ul li a {
+    padding: 1.2rem 2rem;
+  }
+
+  .why-choose-us {
+    min-height: 40rem;
+  }
+
+  .services .services-row .icon-box h3 {
+    font-size: 2.4rem;
+  }
+
+  .services.other_services .services-row {
+    gap: 0;
+    margin: 0 -1rem;
+  }
+
+  .other_services .services-row .service {
+    padding: 1rem;
+  }
+
+  .swiper-controls {
+    gap: 1.8rem;
+  }
+
+  .swiper-controls > div {
+    height: 5rem;
+    width: 5rem;
+  }
+
+  .newsletter .wrapper h2,
+  .newsletter .wrapper p {
+    margin-bottom: 2rem;
+  }
+
+  .mb-8 {
+    margin-bottom: 6rem;
+  }
+
+  footer .wrapper div li {
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .container,
+  .nav {
+    padding-inline: 4rem;
+  }
+
+  .py {
+    padding-block: 5rem;
+  }
+
+  .mt-5 {
+    margin-top: 2.5rem;
+  }
+
+  .pb {
+    padding-bottom: 5rem;
+  }
+
+  .hero .graphics {
+    max-width: 50%;
+  }
+
+  .hero .banner-details .title {
+    font-size: 5.2rem;
+  }
+
+  .sponsors .sponsors-row.row {
+    margin-left: 4rem;
+  }
+
+  .sponsors .sponsors-row.row_reverse {
+    margin-right: 4rem;
+  }
+
+  .sponsors,
+  .clients {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .newsletter {
+    padding-top: 5rem;
+  }
+
+  .sponsors .marquee {
+    margin-top: 0;
+  }
+
+  .sponsors .sponsors-row ul li a {
+    padding: 1rem;
+  }
+
+  .services-row.contain {
+    max-width: unset;
+    margin: 0 -1.2rem;
+  }
+
+  .services .services-row .service {
+    width: 50%;
+    padding: 1.2rem;
+  }
+
+  .sample_works .intro {
+    margin-bottom: 5rem;
+  }
+
+  .works .panel-left,
+  .works .panel-right {
+    flex: auto;
+    width: 100%;
+  }
+
+  .works .projects {
+    columns: 2;
+  }
+
+  .about .group {
+    margin-bottom: 4rem;
+  }
+
+  footer .wrapper {
+    padding: 5rem 0;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  body {
+    font-size: 1.4rem;
+  }
+
+  h4 {
+    font-size: 2rem;
+  }
+
+  .hero .contents h1 {
+    font-size: 6.2rem;
+  }
+
+  .clients .testimonials .card .header h5,
+  .clients .testimonials .card .header p {
+    font-size: 1.4rem;
+  }
+
+  .why-choose-us .details p {
+    margin-bottom: 2rem;
+  }
+
+  .why-choose-us,
+  .newsletter .wrapper {
+    min-height: 30rem;
+    padding: 4rem 0;
+  }
+
+  .newsletter .wrapper {
+    padding: 4rem 2rem;
+  }
+
+  .sample_works_container article,
+  .other_services .services-row .service {
+    width: 50%;
+  }
+
+  .services.other_services .services-row .icon-box {
+    max-width: unset;
+  }
+
+  footer .wrapper form label {
+    margin: 2rem 0;
+  }
+
+  footer .wrapper form input {
+    min-width: 20rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  header.header {
+    top: -8rem;
+  }
+
+  .button {
+    padding: 1.4rem 2.8rem;
+  }
+
+  .mobile-menus {
+    display: block;
+  }
+
+  .mobile-menus li {
+    margin: 0;
+  }
+
+  .mobile-menus a {
+    font-size: 3.2rem;
+  }
+
+  .app {
+    padding-top: 0;
+  }
+
+  .flex-container > div {
+    width: 100%;
+  }
+
+  .hero {
+    min-height: 100vh;
+    padding-bottom: 0;
+  }
+
+  .hero .contents form .group input {
+    min-width: 20rem;
+    width: 100%;
+    padding: 1.25rem 1.5rem;
+  }
+
+  .hero .contents h1,
+  .hero .banner-details .title {
+    font-size: 3.6rem;
+  }
+
+  .flex-container > .title {
+    margin-bottom: 2rem;
+  }
+
+  .flex-container .description {
+    padding-left: 0;
+  }
+
+  .sponsors .sponsors-row ul {
+    gap: 1rem;
+  }
+
+  .sponsors .sponsors-row ul li a img {
+    max-width: 10rem;
+  }
+
+  .works .projects {
+    columns: 1;
+  }
+
+  .newsletter .newsletter-form-container input {
+    height: 4rem;
+    max-width: 25rem;
+  }
+
+  .sample_works_container article,
+  .other_services .services-row .service {
+    width: 100%;
+  }
+
+  .sample_works .intro {
+    margin-bottom: 4rem;
+  }
+
+  footer .wrapper {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .services .services-row .service {
+    width: 100%;
+  }
+}

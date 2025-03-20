@@ -1,0 +1,169 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --app-bg-clr: #110f0f;
+  --header-bg-clr: #0f0f0f66;
+  --heading-clr: #0d0e14;
+  --yellow-clr: #ffb219;
+  --primary-clr: #ffa800;
+  --black-clr: #000000;
+  --white-clr: #ffffff;
+  --slate-clr: #a1aebf;
+  --text-clr: #ffffff99;
+  --newsletter-text-clr: #00000099;
+  --purple-clr: #8474c4;
+  --link-clr: #728095;
+  --card-bg-clr: #0f0f0f;
+  --hover-bg-clr: #a1aebf1c;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+p {
+  color: var(--text-clr);
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+ul {
+  list-style: none;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.container {
+  max-width: 144rem;
+  width: 100%;
+  margin: 0 auto;
+  padding-inline: 7rem;
+}
+
+.mt-5 {
+  margin-top: 5rem;
+}
+
+.py {
+  padding-block: 7rem;
+}
+
+.pb {
+  padding-bottom: 7rem;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 3rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 1.6rem 2.1rem;
+  border: 0;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-duration: 400ms;
+  cursor: pointer;
+}
+
+.button.button-primary {
+  border: 0.2rem solid var(--primary-clr);
+  background: var(--primary-clr);
+  color: var(--black-clr);
+}
+
+.button.button-primary:hover {
+  color: var(--primary-clr);
+  background: transparent;
+  border: 0.2rem solid var(--primary-clr);
+}
+
+.button.button-outlined {
+  padding: 1.1rem 2.4rem;
+  border: 0.2rem solid var(--primary-clr);
+  background: transparent;
+  color: var(--primary-clr);
+}
+
+.button.button-outlined:hover {
+  background: var(--primary-clr);
+  color: var(--black-clr);
+}
+
+.card {
+  padding: 2.4rem;
+  border-radius: 0.4rem;
+  border: 0.1rem solid var(--slate-clr);
+  transition: 300ms all ease-in-out;
+}
+
+.card:hover {
+  background: var(--hover-bg-clr);
+}
+
+.card > .image {
+  height: 14.2rem;
+  background: var(--purple-clr);
+  border-radius: 0.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.card .tag {
+  background: var(--primary-clr);
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  color: var(--black-clr);
+  font-weight: 600;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.4rem;
+  margin-bottom: 2.4rem;
+  font-family: "Archivo", sans-serif;
+}
+
+.card h4 {
+  margin-bottom: 2rem;
+  font-family: "Quicksand", sans-serif;
+}
+
+.card a {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  color: var(--link-clr);
+  transition: 300ms all ease-in-out;
+}
+
+.card a:hover {
+  color: var(--primary-clr);
+}
+
+::selection {
+  background: var(--primary-clr);
+  color: var(--white-clr);
+}
