@@ -4,7 +4,7 @@ Frontend Test
 
 Project Description
 
-Live Demo: Shadient.co Project
+Live Demo: https://shadientco-project.netlify.app/
 
 This is a dark-themed animated website built using various libraries, including SwiperJS, LocomotiveJS, GSAP ScrollTrigger, and more.
 
